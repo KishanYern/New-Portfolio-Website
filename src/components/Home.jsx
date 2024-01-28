@@ -70,7 +70,7 @@ const Home = () => {
                     </div>
                     <div>
                         {' '}
-                        <GiAirplaneDeparture className='h-52 w-52 pt-10' />{' '}
+                        <GiAirplaneDeparture className='h-52 w-52 pt-10 opacity-0 md:opacity-100' />{' '}
                     </div>
                 </div>
                 <div className='flex flex-col justify-between items-center h-1/6 w-full px-4 md:flex-row md:items-center md:justify-center space'>
@@ -78,7 +78,7 @@ const Home = () => {
                         onClick={resumeClick}
                         className='text-3xl bg-slate-400 h-20 w-36 flex justify-center items-center cursor-pointer rounded-3xl
                     shadow-lg shadow-blue-500/40 hover:shadow-indigo-500/40 hover:scale-105 
-                    hover:shadow-2xl duration-200 hover:text-white z-10 mr-10'
+                    hover:shadow-2xl duration-200 hover:text-white z-10 mr-10 mt-10'
                     >
                         Resume
                     </button>
@@ -86,7 +86,7 @@ const Home = () => {
                         onClick={githubClick}
                         className='text-3xl bg-slate-400 h-20 w-28 flex justify-center items-center cursor-pointer rounded-3xl
                     shadow-lg shadow-blue-500/40 hover:shadow-indigo-500/40 hover:scale-105 
-                    hover:shadow-2xl duration-200 hover:text-white z-10 mr-10'
+                    hover:shadow-2xl duration-200 hover:text-white z-10 mr-10 mt-10'
                     >
                         <FaGithub size={45} className='text-3xl' />
                     </button>
@@ -94,13 +94,16 @@ const Home = () => {
                         onClick={linkedinClick}
                         className='text-3xl bg-slate-400 h-20 w-28 flex justify-center items-center cursor-pointer rounded-3xl
                     shadow-lg shadow-blue-500/40 hover:shadow-indigo-500/40 hover:scale-105 
-                    hover:shadow-2xl duration-200 hover:text-white z-10 mr-10'
+                    hover:shadow-2xl duration-200 hover:text-white z-10 mr-10 mt-10'
                     >
                         <FaLinkedin size={45} className='text-3xl' />
                     </button>
                 </div>
                 <div className='text-3xl text-gray-500 mt-32'>
-                    <IoCaretDown className='animate-bounce' />
+                    <IoCaretDown
+                        size={40}
+                        className='animate-bounce opacity-0 md:opacity-100'
+                    />
                 </div>
             </div>
         </div>
