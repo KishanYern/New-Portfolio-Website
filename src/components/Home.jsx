@@ -2,10 +2,16 @@ import React from 'react';
 import { GiAirplaneDeparture } from 'react-icons/gi';
 
 const Home = () => {
+    const resumeClick = () => {
+        window.open(
+            'https://drive.google.com/file/d/103knfPxQIT3dcNjhzb8HE5GgQ9NZgs2c/view?usp=drive_link' // update this link
+        );
+    };
     return (
         <div
             name='homePage'
-            className='h-screen w-full bg-gradient-to-b from-white to-blue-100 overflow-hidden max-w-screen-ms'
+            style={{ height: '100vh' }}
+            className=' w-full bg-gradient-to-b from-white to-blue-100 overflow-hidden max-w-screen-ms'
         >
             <div>
                 <div
@@ -45,17 +51,26 @@ const Home = () => {
                 />
             </div>
 
-            <div className='z-10 mx-10 flex flex-col items-center justify-center h-full w-full px-4 md:flex-row'>
-                <div className='text-9xl pr-56 ml-0 pl-0 font-bold bg-gradient-to-b w-1/2 from-red-700 to-red-400 bg-clip-text text-transparent'>
-                    Kishan Yerneni
+            <div className='flex flex-col items-center justify-center h-full'>
+                <div className='z-10 mx-10 flex flex-col items-center justify-center h-2/6 w-full px-4 md:flex-row'>
+                    <div className='text-9xl ml-0 pl-0 font-bold bg-gradient-to-b from-red-700 to-red-400 bg-clip-text text-transparent'>
+                        Kishan Yerneni
+                    </div>
+                    <div>
+                        {' '}
+                        <GiAirplaneDeparture className='h-52 w-52' />{' '}
+                    </div>
                 </div>
-                <div>
-                    {' '}
-                    <GiAirplaneDeparture className='h-52 w-52 ml-20' />{' '}
-                </div>
+                <button
+                    onClick={resumeClick}
+                    className='text-3xl bg-slate-400 h-20 w-36 flex justify-center items-center cursor-pointer rounded-3xl
+                    shadow-lg shadow-blue-500/40 hover:shadow-indigo-500/40 hover:scale-105 duration-200 hover:text-purple-700 z-10'
+                >
+                    Resume
+                </button>
             </div>
-            <div></div>
         </div>
     );
 };
+
 export default Home;
