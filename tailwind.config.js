@@ -26,6 +26,7 @@ module.exports = {
         },
         fontFamily: {
             signature: ['Great Vibes'],
+            roboto: ['Roboto'],
         },
     },
     plugins: [],

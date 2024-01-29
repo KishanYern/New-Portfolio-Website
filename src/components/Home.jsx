@@ -22,8 +22,7 @@ const Home = () => {
     return (
         <div
             name='homePage'
-            style={{ height: '100vh' }}
-            className=' w-full bg-gradient-to-b from-white to-blue-100 overflow-hidden max-w-screen-ms'
+            className=' w-full bg-gradient-to-b from-white to-blue-100 overflow-hidden max-w-screen-ms h-screen'
         >
             <div>
                 <div
