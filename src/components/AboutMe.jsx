@@ -4,8 +4,8 @@ import Pikachu from './assets/pikachu.jpg';
 const AboutMe = () => {
     return (
         <div className='h-screen bg-gradient-to-b from-blue-100 to-red-100'>
-            <div className='flex justify-center items-center'>
-                <h1 className='text-7xl font-signature text-red-400 h-1/6 pt-40'>
+            <div className='flex justify-center items-center relative'>
+                <h1 className='text-7xl font-signature text-red-400 h-1/6 pt-40 opacity-0 md:opacity-100'>
                     About Me
                 </h1>
             </div>
@@ -30,10 +30,10 @@ const AboutMe = () => {
                             </div>
                         </div>
                     </div>
-                    <div className='w-1/3 flex justify-center pb-32'>
+                    <div className='w-1/3 flex justify-center pb-32 opacity-0 md:opacity-100 z-0'>
                         <img
                             src={Pikachu}
-                            alt='AstroPic'
+                            alt='Pikachu Meme'
                             className='w-3/4 hover:scale-110 transform transition duration-500 ease-in-out'
                         />
                     </div>
