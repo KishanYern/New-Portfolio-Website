@@ -69,7 +69,10 @@ const Home = () => {
                     </div>
                     <div>
                         {' '}
-                        <GiAirplaneDeparture className='h-52 w-52 pt-10 opacity-0 md:opacity-100' />{' '}
+                        <GiAirplaneDeparture
+                            className='h-52 w-52 pt-10 opacity-0 text-red-400 md:opacity-100 hover:animate-airplane 
+                        transition duration-1000 ease-in-out hover:text-green-400'
+                        />{' '}
                     </div>
                 </div>
                 <div className='flex flex-col justify-between items-center h-1/6 w-full px-4 md:flex-row md:items-center md:justify-center space'>

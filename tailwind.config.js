@@ -6,6 +6,7 @@ module.exports = {
         extend: {
             animation: {
                 blob: 'blob 10s infinite',
+                airplane: 'airplane 5s',
             },
             keyframes: {
                 blob: {
@@ -20,6 +21,14 @@ module.exports = {
                     },
                     '100%': {
                         transform: 'translate(0px, 0px) scale(1)',
+                    },
+                },
+                airplane: {
+                    '0%': {
+                        transform: 'translate(0px, 0px) scale(1)',
+                    },
+                    '100%': {
+                        transform: 'translate(400px, -200px) scale(0.5)',
                     },
                 },
             },
