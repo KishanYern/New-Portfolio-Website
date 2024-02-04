@@ -1,4 +1,4 @@
-const elements = [
+const timelineElements = [
     {
         id: 1,
         title: 'Teaching Assistant at University of Houston',
@@ -36,3 +36,5 @@ const elements = [
         timestamp: 'August 2023 - December 2023',
     },
 ];
+
+export default timelineElements;
