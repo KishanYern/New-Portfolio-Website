@@ -3,6 +3,7 @@ import { GiAirplaneDeparture } from 'react-icons/gi';
 import { IoCaretDown } from 'react-icons/io5';
 import { FaGithub } from 'react-icons/fa';
 import { FaLinkedin } from 'react-icons/fa';
+import { IoIosPaper } from 'react-icons/io';
 
 const Home = () => {
     const resumeClick = () => {
@@ -63,26 +64,29 @@ const Home = () => {
             </div>
 
             <div className='flex flex-col items-center justify-center h-full'>
-                <div className='z-10 mx-10 flex flex-col items-center justify-center h-3/6 w-full px-4 md:flex-row md:items-center md:justify-center'>
-                    <div className='text-9xl ml-0 pl-0 font-bold bg-gradient-to-b from-red-700 to-red-400 bg-clip-text text-transparent pt-16'>
+                <div
+                    className='z-10 mx-10 flex flex-col items-center justify-center h-3/6 w-full px-4 
+                md:flex-row md:items-center md:justify-center'
+                >
+                    <div className='big-text ml-0 pl-0 font-bold bg-clip-text pt-16'>
                         Kishan Yerneni
                     </div>
-                    <div>
+                    {/* <div>
                         {' '}
                         <GiAirplaneDeparture
-                            className='h-52 w-52 pt-10 opacity-0 text-red-400 md:opacity-100 hover:animate-airplane 
+                            className='h-52 w-52 pt-10 text-red-400 hover:animate-airplane 
                         transition duration-1000 ease-in-out hover:text-green-400'
                         />{' '}
-                    </div>
+                    </div> */}
                 </div>
                 <div className='flex flex-col justify-between items-center h-1/6 w-full px-4 md:flex-row md:items-center md:justify-center space'>
                     <button
                         onClick={resumeClick}
-                        className='text-3xl bg-slate-400 h-20 w-36 flex justify-center items-center cursor-pointer rounded-3xl
+                        className='text-3xl bg-slate-400 h-20 w-28 flex justify-center items-center cursor-pointer rounded-3xl
                     shadow-lg shadow-blue-500/40 hover:shadow-indigo-500/40 hover:scale-105 
-                    hover:shadow-2xl duration-200 hover:text-white z-10 mr-10 mt-10'
+                    hover:shadow-2xl hover:text-white z-10 mr-10 mt-10 duration-200'
                     >
-                        Resume
+                        <IoIosPaper size={45} className='text-3xl' />
                     </button>
                     <button
                         onClick={githubClick}
