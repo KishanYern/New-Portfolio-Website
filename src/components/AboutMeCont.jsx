@@ -8,7 +8,7 @@ const AboutMeCont = () => {
                 <div className='w-1/3 flex justify-center pb-32 opacity-0 md:opacity-100 hover:scale(105)'>
                     <GiBookshelf
                         size={300}
-                        className='hover:scale-110 transform transition duration-500 ease-in-out text-red-400 hover:text-green-400'
+                        className='hover:scale-110 transform h-0 md:h-auto transition duration-500 ease-in-out text-red-400 hover:text-green-400'
                     />
                 </div>
                 <div className='w-2/3 flex justify-center items-center text-3xl px-10 font-roboto pb-28'>

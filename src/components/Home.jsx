@@ -82,25 +82,25 @@ const Home = () => {
                 <div className='flex flex-col justify-between items-center h-1/6 w-full px-4 md:flex-row md:items-center md:justify-center space'>
                     <button
                         onClick={resumeClick}
-                        className='text-3xl bg-slate-400 h-20 w-28 flex justify-center items-center cursor-pointer rounded-3xl
+                        className='text-3xl bg-slate-200 h-20 w-28 flex justify-center items-center cursor-pointer rounded-3xl
                     shadow-lg shadow-blue-500/40 hover:shadow-indigo-500/40 hover:scale-105 
-                    hover:shadow-2xl hover:text-white z-10 mr-10 mt-10 duration-200'
+                    hover:shadow-2xl hover:text-slate-600 z-10 mr-10 mt-10 duration-200'
                     >
                         <IoIosPaper size={45} className='text-3xl' />
                     </button>
                     <button
                         onClick={githubClick}
-                        className='text-3xl bg-slate-400 h-20 w-28 flex justify-center items-center cursor-pointer rounded-3xl
+                        className='text-3xl bg-slate-200 h-20 w-28 flex justify-center items-center cursor-pointer rounded-3xl
                     shadow-lg shadow-blue-500/40 hover:shadow-indigo-500/40 hover:scale-105 
-                    hover:shadow-2xl duration-200 hover:text-white z-10 mr-10 mt-10'
+                    hover:shadow-2xl duration-200 hover:text-red-400 z-10 mr-10 mt-10'
                     >
                         <FaGithub size={45} className='text-3xl' />
                     </button>
                     <button
                         onClick={linkedinClick}
-                        className='text-3xl bg-slate-400 h-20 w-28 flex justify-center items-center cursor-pointer rounded-3xl
+                        className='text-3xl bg-slate-200 h-20 w-28 flex justify-center items-center cursor-pointer rounded-3xl
                     shadow-lg shadow-blue-500/40 hover:shadow-indigo-500/40 hover:scale-105 
-                    hover:shadow-2xl duration-200 hover:text-white z-10 mr-10 mt-10'
+                    hover:shadow-2xl duration-200 hover:text-blue-700 z-10 mr-10 mt-10'
                     >
                         <FaLinkedin size={45} className='text-3xl' />
                     </button>
