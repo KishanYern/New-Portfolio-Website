@@ -1,5 +1,4 @@
 import React from 'react';
-import AstroPic from './assets/astro-code-icon.avif';
 import Pikachu from './assets/pikachu.jpg';
 const AboutMe = () => {
     return (

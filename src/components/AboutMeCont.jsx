@@ -3,9 +3,12 @@ import { GiBookshelf } from 'react-icons/gi';
 
 const AboutMeCont = () => {
     return (
-        <div className='bg-gradient-to-b from-red-100 to-green-100 h-screen w-full'>
+        <div
+            className='bg-gradient-to-b from-red-100 to-green-100 w-full'
+            style={{ height: '75vh' }}
+        >
             <div className='flex flex-col justify-center items-center h-full md:flex-row'>
-                <div className='w-1/3 flex justify-center pb-32 opacity-0 md:opacity-100 hover:scale(105)'>
+                <div className='w-1/3 flex justify-center pb-0 md:pb-32 opacity-0 md:opacity-100 hover:scale(105)'>
                     <GiBookshelf
                         size={300}
                         className='hover:scale-110 transform h-0 md:h-auto transition duration-500 ease-in-out text-red-400 hover:text-green-400'
