@@ -1,25 +1,10 @@
 import React from 'react';
-import { GiAirplaneDeparture } from 'react-icons/gi';
 import { IoCaretDown } from 'react-icons/io5';
 import { FaGithub } from 'react-icons/fa';
 import { FaLinkedin } from 'react-icons/fa';
 import { IoIosPaper } from 'react-icons/io';
 
 const Home = () => {
-    const resumeClick = () => {
-        window.open(
-            'https://drive.google.com/file/d/103knfPxQIT3dcNjhzb8HE5GgQ9NZgs2c/view?usp=drive_link' // update this link
-        );
-    };
-
-    const githubClick = () => {
-        window.open('https://github.com/KishanYern');
-    };
-
-    const linkedinClick = () => {
-        window.open('https://www.linkedin.com/in/kishan-yerneni/');
-    };
-
     return (
         <div
             name='homePage'
@@ -68,42 +53,47 @@ const Home = () => {
                     className='z-10 mx-10 flex flex-col items-center justify-center h-3/6 w-full px-4 
                 md:flex-row md:items-center md:justify-center'
                 >
-                    <div className='big-text ml-0 pl-0 font-bold bg-clip-text pt-16'>
+                    <div className='md:text-[12rem] text-9xl ml-0 pl-0 font-bold bg-clip-text pt-16'>
                         Kishan Yerneni
                     </div>
-                    {/* <div>
-                        {' '}
-                        <GiAirplaneDeparture
-                            className='h-52 w-52 pt-10 text-red-400 hover:animate-airplane 
-                        transition duration-1000 ease-in-out hover:text-green-400'
-                        />{' '}
-                    </div> */}
                 </div>
                 <div className='flex flex-col justify-between items-center h-1/6 w-full px-4 md:flex-row md:items-center md:justify-center space'>
-                    <button
-                        onClick={resumeClick}
+                    <a
+                        href='https://drive.google.com/file/d/103knfPxQIT3dcNjhzb8HE5GgQ9NZgs2c/view?usp=drive_link'
+                        target='_blank'
                         className='text-3xl bg-slate-200 h-20 w-28 flex justify-center items-center cursor-pointer rounded-3xl
                     shadow-lg shadow-blue-500/40 hover:shadow-indigo-500/40 hover:scale-105 
                     hover:shadow-2xl hover:text-slate-600 z-10 mr-10 mt-10 duration-200'
                     >
-                        <IoIosPaper size={45} className='text-3xl' />
-                    </button>
-                    <button
-                        onClick={githubClick}
+                        <button>
+                            <IoIosPaper
+                                size={45}
+                                className='text-3xl'
+                            ></IoIosPaper>
+                        </button>
+                    </a>
+                    <a
                         className='text-3xl bg-slate-200 h-20 w-28 flex justify-center items-center cursor-pointer rounded-3xl
                     shadow-lg shadow-blue-500/40 hover:shadow-indigo-500/40 hover:scale-105 
                     hover:shadow-2xl duration-200 hover:text-red-400 z-10 mr-10 mt-10'
+                        href='https://github.com/KishanYern'
+                        target='_blank'
                     >
-                        <FaGithub size={45} className='text-3xl' />
-                    </button>
-                    <button
-                        onClick={linkedinClick}
+                        <button>
+                            <FaGithub size={45} className='text-3xl' />
+                        </button>
+                    </a>
+                    <a
                         className='text-3xl bg-slate-200 h-20 w-28 flex justify-center items-center cursor-pointer rounded-3xl
                     shadow-lg shadow-blue-500/40 hover:shadow-indigo-500/40 hover:scale-105 
                     hover:shadow-2xl duration-200 hover:text-blue-700 z-10 mr-10 mt-10'
+                        href='https://www.linkedin.com/in/kishan-yerneni/'
+                        target='_blank'
                     >
-                        <FaLinkedin size={45} className='text-3xl' />
-                    </button>
+                        <button>
+                            <FaLinkedin size={45} className='text-3xl' />
+                        </button>
+                    </a>
                 </div>
                 <div className='text-3xl text-gray-500 mt-32'>
                     <IoCaretDown
