@@ -2,7 +2,10 @@ import React from 'react';
 import Pikachu from './assets/pikachu.jpg';
 const AboutMe = () => {
     return (
-        <div className='h-screen bg-gradient-to-b from-blue-100 to-red-100'>
+        <div
+            className='h-screen bg-gradient-to-b from-blue-100 to-red-100'
+            name='aboutPage'
+        >
             <div className='flex justify-center items-center relative'>
                 <h1 className='text-7xl font-signature text-red-400 h-1/6 pt-40 opacity-0 md:opacity-100'>
                     About Me
