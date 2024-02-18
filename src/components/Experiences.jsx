@@ -23,7 +23,7 @@ const Experiences = () => {
                                     shadow-blue-500/40 hover:shadow-indigo-500/40 hover:scale-105 
                                     hover:shadow-2xl mr-10 mt-10 duration-200 active:bg-purple-800 ${
                                         experiences == id - 1
-                                            ? 'bg-purple-500'
+                                            ? 'bg-purple-500 scale-110'
                                             : 'bg-red-500'
                                     }`}
                                 >

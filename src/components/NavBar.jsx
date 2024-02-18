@@ -28,7 +28,7 @@ const NavBar = () => {
     const [nav, setNav] = useState(false);
 
     return (
-        <div className='flex justify-between items-center w-full h-20 px-4 bg-red fixed z-20 bg-slate-200 bg-opacity-30'>
+        <div className='flex justify-between items-center w-full h-20 px-4 bg-red fixed z-20 bg-slate-200 bg-opacity-100'>
             <div>
                 <h1 className='text-5xl font-signature ml-2'>Kishan Yerneni</h1>
             </div>

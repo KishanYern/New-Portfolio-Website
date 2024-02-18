@@ -14,7 +14,7 @@ const ExperienceElemenets = [
         ],
     },
     {
-        id: 3,
+        id: 2,
         company: 'CougarCS',
         content: [
             {
@@ -36,7 +36,7 @@ const ExperienceElemenets = [
         ],
     },
     {
-        id: 2,
+        id: 3,
         company: 'UH - CASA',
         content: [
             {
