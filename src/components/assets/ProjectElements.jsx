@@ -2,17 +2,11 @@ const Projects = [
     {
         id: 1,
         title: 'Hive',
-        info: 'THis is a hackathon project that I worked on with a team of 4. We created a web application that allows \
+        info: 'This is a hackathon project that I worked on with a team of 4. We created a web application that allows \
         users to collaborate with each other for homework, teaching, etc. This application also has a \
         chatbot using the OpenAI API to assist with any questions.',
-        skills: [
-            'Nextjs',
-            'Nodejs',
-            'OpenAI API',
-            'Liveblocks',
-            'TailwindCSS',
-            'Figma',
-        ],
+        skills: ['Nextjs', 'Nodejs', 'Liveblocks', 'TailwindCSS', 'Figma'],
+        github: 'https://github.com/KishanYern/Team-404-Not-Found',
     },
     {
         id: 2,
@@ -28,6 +22,7 @@ const Projects = [
             'Seaborn',
             'Jupyter Notebook',
         ],
+        github: 'https://github.com/KishanYern/Rice-Datathon-2024',
     },
     {
         id: 3,
@@ -36,6 +31,7 @@ const Projects = [
         create a website to showcase my projects and experiences, while also getting better with at front-end development. \
         I also used Vercel to deploy the website.',
         skills: ['Reactjs', 'Tailwindcss', 'Nodejs'],
+        github: 'https://github.com/KishanYern/New-Portfolio-Website', // might need to change this
     },
     {
         id: 4,
@@ -50,6 +46,7 @@ const Projects = [
             'Seaborn',
             'Jupyter Notebook',
         ],
+        github: 'https://github.com/KishanYern/Data-Science-Repository',
     },
     {
         id: 5,
@@ -58,6 +55,7 @@ const Projects = [
         This application mainly uses the stocks.js package, which also uses Alpha Vantage as its data source using the fetch API. \
         This bot stores user information, such as watch-list items, in a MongoDB database.',
         skills: ['Nodejs', 'JavaScript', 'Discord.js', 'stocks.js', 'MongoDB'],
+        github: 'https://github.com/KishanYern/Discord-Stock-Bot',
     },
 ];
 
