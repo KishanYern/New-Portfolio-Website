@@ -6,7 +6,7 @@ import { IoIosPaper } from 'react-icons/io';
 
 const Home = () => {
     return (
-        <div
+        <section
             name='homePage'
             className=' w-full bg-gradient-to-b from-white to-blue-100 overflow-hidden max-w-screen-ms h-screen'
         >
@@ -102,7 +102,7 @@ const Home = () => {
                     />
                 </div>
             </div>
-        </div>
+        </section>
     );
 };
 

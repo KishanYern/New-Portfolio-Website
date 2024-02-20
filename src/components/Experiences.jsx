@@ -4,7 +4,7 @@ import ExperienceElements from './assets/ExperienceElements';
 const Experiences = () => {
     const [experiences, setExperiences] = useState(0);
     return (
-        <div
+        <section
             className='bg-gradient-to-b from-green-100 to-orange-100 h-[100vh]'
             name='experiencePage'
         >
@@ -65,7 +65,7 @@ const Experiences = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     );
 };
 

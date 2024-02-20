@@ -2,7 +2,7 @@ import React from 'react';
 import Pikachu from './assets/pikachu.jpg';
 const AboutMe = () => {
     return (
-        <div
+        <section
             className='h-screen bg-gradient-to-b from-blue-100 to-red-100'
             name='aboutPage'
         >
@@ -41,7 +41,7 @@ const AboutMe = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     );
 };
 export default AboutMe;

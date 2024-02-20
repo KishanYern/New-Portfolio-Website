@@ -3,7 +3,7 @@ import { GiBookshelf } from 'react-icons/gi';
 
 const AboutMeCont = () => {
     return (
-        <div className='bg-gradient-to-b from-red-100 to-green-100 w-full md:h-[75vh] h-[150vh]'>
+        <section className='bg-gradient-to-b from-red-100 to-green-100 w-full md:h-[75vh] h-[150vh]'>
             <div className='flex flex-col justify-center items-center h-full md:flex-row'>
                 <div className='w-1/3 flex justify-center pb-0 md:pb-32 opacity-0 md:opacity-100 hover:scale(105)'>
                     <GiBookshelf
@@ -44,7 +44,7 @@ const AboutMeCont = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     );
 };
 export default AboutMeCont;

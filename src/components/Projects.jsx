@@ -4,7 +4,7 @@ import Project from './Project';
 
 const Projects = () => {
     return (
-        <div className=' h-[100vh] bg-gradient-to-b from-orange-100 to-red-50'>
+        <section className=' h-[100vh] bg-gradient-to-b from-orange-100 to-red-50'>
             <div className='text-7xl text-red-400 flex justify-center items-center font-signature min-w-max'>
                 Projects
             </div>
@@ -21,7 +21,7 @@ const Projects = () => {
                     );
                 })}
             </div>
-        </div>
+        </section>
     );
 };
 export default Projects;
