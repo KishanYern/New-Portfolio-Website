@@ -37,5 +37,23 @@ module.exports = {
             roboto: ['Roboto'],
         },
     },
+    screens: {
+        ssm: '500px',
+    },
     plugins: [],
 };
+// function ({ addUtilities }) {
+//             const newUtilities = {
+//                 '.animation-delay-2': {
+//                     animationDelay: '2s',
+//                 },
+//                 '.animation-delay-4': {
+//                     animationDelay: '4s',
+//                 },
+//                 '.animation-delay-6': {
+//                     animationDelay: '6s',
+//                 },
+//             };
+
+//             addUtilities(newUtilities, ['responsive', 'hover']);
+//         },

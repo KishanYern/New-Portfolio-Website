@@ -13,7 +13,7 @@ const AboutMe = () => {
             </div>
             <div className='h-5/6'>
                 <div className='flex flex-col justify-center items-center h-full md:flex-row'>
-                    <div className='w-2/3 flex justify-center items-center text-3xl px-10 font-roboto pb-28'>
+                    <div className='w-2/3 flex justify-center items-center md:text-3xl text-lg px-10 font-roboto pb-28'>
                         <div>
                             Hey, I'm Kishan Yerneni and this is my portfolio
                             website! I am currently a Junior at the University
@@ -32,7 +32,7 @@ const AboutMe = () => {
                             </div>
                         </div>
                     </div>
-                    <div className='w-1/3 flex justify-center pb-32 opacity-0 md:opacity-100 z-0'>
+                    <div className='w-1/3 opacity-0 sm:opacity-100 flex justify-center md:pb-32 pb-0 z-0'>
                         <img
                             src={Pikachu}
                             alt='Pikachu Meme'

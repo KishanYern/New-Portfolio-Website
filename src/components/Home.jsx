@@ -10,35 +10,35 @@ const Home = () => {
             name='homePage'
             className=' w-full bg-gradient-to-b from-white to-blue-100 overflow-hidden max-w-screen-ms h-screen'
         >
-            <div>
+            <div className=' container overflow-hidden'>
                 <div
                     className='absolute top-24 left-24 w-80 h-80 opacity-70 
             rounded-full bg-yellow-100 mix-blend-multiply 
-            filter blur-xl animate-blob z-0 pointer-events-none'
+            filter blur-xl animate-blob  z-0 pointer-events-none'
                 />
 
                 <div
                     className='absolute bottom-40 right-36 w-80 h-80 opacity-70 
             rounded-full bg-red-200 mix-blend-multiply 
-            filter blur-xl animate-blob animation-delay-2 z-0 pointer-events-none'
+            filter blur-xl animate-blob  animation-delay-4 z-0 pointer-events-none'
                 />
 
                 <div
-                    className='absolute bottom-52 left-36 w-80 h-80 opacity-70 
+                    className='absolute bottom-52 left-1/4 w-80 h-80 opacity-70 
             rounded-full bg-blue-200 mix-blend-multiply 
-            filter blur-xl animate-blob animation-delay-4 z-0 pointer-events-none'
+            filter blur-xl animate-blob  animation-delay-4 z-0 pointer-events-none'
                 />
 
                 <div
                     className='absolute top-80 right-2/4 w-80 h-80 opacity-70 
             rounded-full bg-green-200 mix-blend-multiply 
-            filter blur-xl animate-blob animation-delay-6 z-0 pointer-events-none'
+            filter blur-xl animate-blob  animation-delay-6 z-0 pointer-events-none'
                 />
 
                 <div
                     className='absolute bottom-2/4 right-1/4 w-80 h-80 opacity-70 
             rounded-full bg-gray-300 mix-blend-multiply 
-            filter blur-xl animate-blob z-0 pointer-events-none'
+            filter blur-xl animate-blob  z-0 pointer-events-none'
                 />
 
                 <div
@@ -53,7 +53,7 @@ const Home = () => {
                     className='z-10 mx-10 flex flex-col items-center justify-center h-3/6 w-full px-4 
                 md:flex-row md:items-center md:justify-center'
                 >
-                    <div className='md:text-[12rem] text-9xl ml-0 pl-0 font-bold bg-clip-text pt-16'>
+                    <div className='md:text-[12rem] text-7xl ml-0 pl-0 font-bold bg-clip-text pt-16'>
                         Kishan Yerneni
                     </div>
                 </div>

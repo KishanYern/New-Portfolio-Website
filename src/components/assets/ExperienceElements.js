@@ -6,12 +6,13 @@ const ExperienceElemenets = [
             {
                 id: 1,
                 title: 'Teaching Assistant at University of Houston',
-                info: 'I am currently a teaching assistant for the University of Houston. \
-                    I am responsible for grading assignments, holding office hours, and helping students with their assignments. \
-                    The course I am teaching is "Programming and Data Structures".',
+                info: 'I am currently a teaching assistant for the University of Houston \
+                    where I am responsible for grading assignments, holding office hours, and helping students with their assignments. \
+                    The course I am currently assisting for is "Programming and Data Structures". This opportunity is helping me improve my communication skills and my understanding of the material.',
                 timestamp: 'January 2024 - Present',
             },
         ],
+        icon: 'https://pbs.twimg.com/profile_images/1629608656445603841/9L2QV5ta_400x400.jpg',
     },
     {
         id: 2,
@@ -34,6 +35,7 @@ const ExperienceElemenets = [
                 timestamp: 'August 2023 - December 2023',
             },
         ],
+        icon: 'https://cougarcs.com/static/media/logo.f9740ce614c781dd1a05.png',
     },
     {
         id: 3,
@@ -44,10 +46,12 @@ const ExperienceElemenets = [
                 title: 'Academic Support Assistant at University of Houston',
                 info: 'I was an academic support assistant for the University of Houston. In this role, I worked as a tutor for the \
                     "Center for Academic Support and Assessment", or CASA, and helped students with their assignments and class material. Some of the courses \
-                    I tutored were "Calculus I and II", "Discrete Mathematics", "Linear Algebra", and "Statistics".',
+                    I tutored were "Calculus I and II", "Discrete Mathematics", "Linear Algebra", and "Statistics". While teaching/tutoring these courses, I would \
+                    learn along side the students if I was not sure, improving my understanding of the material.',
                 timestamp: 'January 2023 - December 2023',
             },
         ],
+        icon: '',
     },
 ];
 
