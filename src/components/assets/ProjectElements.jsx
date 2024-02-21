@@ -1,7 +1,7 @@
 const Projects = [
     {
         id: 1,
-        title: 'Hive',
+        title: 'CodeRed: Hive',
         info: 'This is a hackathon project that I worked on with a team of 4. We created a web application that allows users to collaborate with each other for homework, teaching, etc. This application also has a chatbot using the OpenAI API to assist with any questions.',
         skills: ['Nextjs', 'Nodejs', 'Liveblocks', 'TailwindCSS', 'Figma'],
         github: 'https://github.com/KishanYern/Team-404-Not-Found',

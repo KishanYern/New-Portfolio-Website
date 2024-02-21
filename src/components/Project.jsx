@@ -5,9 +5,9 @@ const Project = ({ key, title, info, skills, github }) => {
         <div key={key}>
             <a href={github} target='_blank' rel='noreferrer'>
                 <div
-                    className='text-xl text-white rounded-xl p-2 h-3/4 w-[500px] cursor-pointer
+                    className='text-xl text-white rounded-xl p-2 h-5/6 w-[500px] cursor-pointer
                     shadow-[-10px_-10px_30px_4px_rgba(0,0,0,0.1),_10px_10px_30px_4px_rgba(45,78,255,0.15)] hover:scale-105 
-                    hover:shadow-2xl mr-10 mt-10 duration-200 overflow-auto bg-gradient-to-br from-red-100 to-red-50'
+                    hover:shadow-2xl mr-10 mt-10 duration-200 bg-gradient-to-br from-red-100 to-red-50 font-projects'
                 >
                     <div className='text-4xl text-red-500 font-bold flex justify-center items-center mb-10 underline'>
                         {title}

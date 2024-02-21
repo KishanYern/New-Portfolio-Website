@@ -9,9 +9,9 @@ const Experiences = () => {
             name='experience'
         >
             <div className='text-7xl text-red-400 flex justify-center items-center font-signature min-w-max pt-20'>
-                Experiences
+                Experience
             </div>
-            <div className='flex flex-row h-[90vh]'>
+            <div className='flex flex-row h-[90vh] font-custom'>
                 <div className='w-1/3 flex justify-center items-center'>
                     <div className='flex flex-col gap-10'>
                         {ExperienceElements.map(({ id, company }) => {

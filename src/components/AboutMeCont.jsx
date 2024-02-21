@@ -12,7 +12,7 @@ const AboutMeCont = () => {
                     />
                 </div>
                 <div className='w-2/3 flex justify-center items-center text-lg md:text-3xl px-10 font-roboto pb-28 pt-32 md:pt-0'>
-                    <div>
+                    <div className=' font-custom'>
                         <div>
                             I am currently a{' '}
                             <span className='text-red-400'>

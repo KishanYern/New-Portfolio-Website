@@ -53,7 +53,7 @@ const Home = () => {
                     className='z-10 mx-10 flex flex-col items-center justify-center h-3/6 w-full px-4 
                 md:flex-row md:items-center md:justify-center'
                 >
-                    <div className='md:text-[12rem] text-7xl ml-0 pl-0 font-bold bg-clip-text pt-16'>
+                    <div className='md:text-[12rem] text-7xl ml-0 pl-0 font-bold font-roboto bg-clip-text pt-28'>
                         Kishan Yerneni
                     </div>
                 </div>

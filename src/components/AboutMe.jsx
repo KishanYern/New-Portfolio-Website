@@ -13,8 +13,8 @@ const AboutMe = () => {
             </div>
             <div className='h-5/6'>
                 <div className='flex flex-col justify-center items-center h-full md:flex-row'>
-                    <div className='w-2/3 flex justify-center items-center md:text-3xl text-lg px-10 font-roboto pb-28'>
-                        <div>
+                    <div className='w-2/3 flex justify-center items-center md:text-3xl text-lg px-10 font-custom pb-28'>
+                        <div className=' font-custom'>
                             Hey, I'm Kishan Yerneni and this is my portfolio
                             website! I am currently a Junior at the University
                             of Houston, majoring in Computer Science with a

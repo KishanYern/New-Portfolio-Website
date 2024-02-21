@@ -41,7 +41,7 @@ const NavBar = () => {
                         <li
                             key={id}
                             className='px-4 cursor-pointer font-medium capitalize text-black-500 
-                            hover:scale-105 duration-200 hover:text-red-500 z-10'
+                            hover:scale-105 duration-200 hover:text-red-500 z-10 font-custom'
                         >
                             <Link to={link} smooth duration={500}>
                                 {link}
@@ -68,10 +68,16 @@ const NavBar = () => {
                         return (
                             <li
                                 key={id}
-                                className='px-4 z-10 cursor-pointer capitalize py-6 text-4xl hover:scale-105 duration-200 hover:text-black-500'
+                                className='px-4 z-10 font-custom cursor-pointer capitalize py-6 text-4xl hover:scale-105 duration-200 hover:text-black-500'
                             >
-                                {' '}
-                                {link}{' '}
+                                <Link
+                                    to={link}
+                                    smooth
+                                    duration={500}
+                                    onClick={() => setNav(!nav)}
+                                >
+                                    {link}
+                                </Link>
                             </li>
                         );
                     })}

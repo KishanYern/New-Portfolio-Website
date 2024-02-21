@@ -35,6 +35,8 @@ module.exports = {
         fontFamily: {
             signature: ['Great Vibes'],
             roboto: ['Roboto'],
+            projects: ['monospace'],
+            custom: ['Lato'],
         },
     },
     screens: {
