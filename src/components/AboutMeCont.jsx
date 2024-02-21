@@ -11,7 +11,7 @@ const AboutMeCont = () => {
                         className='hover:scale-110 transform h-0 md:h-auto transition duration-500 ease-in-out text-red-400 hover:text-green-400'
                     />
                 </div>
-                <div className='w-2/3 flex justify-center items-center text-lg md:text-3xl px-10 font-roboto pb-28 pt-32 md:pt-0'>
+                <div className='w-2/3 flex justify-center items-center text-2xl md:text-3xl p-0 md:px-10 font-roboto pb-28 md:pt-32 pt-0'>
                     <div className=' font-custom'>
                         <div>
                             I am currently a{' '}

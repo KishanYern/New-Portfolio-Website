@@ -12,37 +12,37 @@ const Home = () => {
         >
             <div className=' container overflow-hidden'>
                 <div
-                    className='absolute top-24 left-24 w-80 h-80 opacity-70 
+                    className='absolute top-[10%] left-[10%] w-40 h-40 md:w-80 md:h-80 opacity-70 
             rounded-full bg-yellow-100 mix-blend-multiply 
             filter blur-xl animate-blob  z-0 pointer-events-none'
                 />
 
                 <div
-                    className='absolute bottom-40 right-36 w-80 h-80 opacity-70 
+                    className='absolute bottom-[20%] right-[25%] w-40 h-40 md:w-80 md:h-80 opacity-70 
             rounded-full bg-red-200 mix-blend-multiply 
             filter blur-xl animate-blob  animation-delay-4 z-0 pointer-events-none'
                 />
 
                 <div
-                    className='absolute bottom-52 left-1/4 w-80 h-80 opacity-70 
+                    className='absolute bottom-[40%] left-1/4 w-40 h-40 md:w-80 md:h-80 opacity-70 
             rounded-full bg-blue-200 mix-blend-multiply 
             filter blur-xl animate-blob  animation-delay-4 z-0 pointer-events-none'
                 />
 
                 <div
-                    className='absolute top-80 right-2/4 w-80 h-80 opacity-70 
+                    className='absolute top-[70%] right-2/4 w-40 h-40 md:w-80 md:h-80 opacity-70 
             rounded-full bg-green-200 mix-blend-multiply 
             filter blur-xl animate-blob  animation-delay-6 z-0 pointer-events-none'
                 />
 
                 <div
-                    className='absolute bottom-2/4 right-1/4 w-80 h-80 opacity-70 
+                    className='absolute bottom-2/4 right-1/4 w-40 h-40 md:w-80 md:h-80 opacity-70 
             rounded-full bg-gray-300 mix-blend-multiply 
             filter blur-xl animate-blob  z-0 pointer-events-none'
                 />
 
                 <div
-                    className='absolute top-1/4 right-1/4 w-80 h-80 opacity-70 
+                    className='absolute top-1/4 right-1/4 w-40 h-40 md:w-80 md:h-80 opacity-70 
             rounded-full bg-orange-200 mix-blend-multiply 
             filter blur-xl animate-blob animation-delay-6 z-0 pointer-events-none'
                 />
@@ -53,7 +53,7 @@ const Home = () => {
                     className='z-10 mx-10 flex flex-col items-center justify-center h-3/6 w-full px-4 
                 md:flex-row md:items-center md:justify-center'
                 >
-                    <div className='md:text-[12rem] text-7xl ml-0 pl-0 font-bold font-roboto bg-clip-text pt-28'>
+                    <div className='md:text-[12rem] text-7xl ml-0 pl-0 font-bold font-roboto bg-clip-text pt-28 flex text-center'>
                         Kishan Yerneni
                     </div>
                 </div>
@@ -98,10 +98,10 @@ const Home = () => {
                         </button>
                     </a>
                 </div>
-                <div className='text-3xl text-gray-500 mt-32'>
+                <div className='text-3xl text-gray-500 mt-32 relative'>
                     <IoCaretDown
                         size={40}
-                        className='animate-bounce opacity-0 md:opacity-100'
+                        className='animate-bounce absolute top-10 right-1/2'
                     />
                 </div>
             </div>
