@@ -8,7 +8,7 @@ import ContactMe from './components/ContactMe';
 
 function App() {
     return (
-        <div style={{ height: 5000 }}>
+        <div>
             <NavBar />
             <Home />
             <AboutMe />

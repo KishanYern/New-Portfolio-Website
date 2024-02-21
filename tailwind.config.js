@@ -40,20 +40,20 @@ module.exports = {
     screens: {
         ssm: '500px',
     },
-    plugins: [],
-};
-// function ({ addUtilities }) {
-//             const newUtilities = {
-//                 '.animation-delay-2': {
-//                     animationDelay: '2s',
-//                 },
-//                 '.animation-delay-4': {
-//                     animationDelay: '4s',
-//                 },
-//                 '.animation-delay-6': {
-//                     animationDelay: '6s',
-//                 },
-//             };
+    plugins: [
+        require('tailwind-scrollbar'),
+        function ({ addUtilities }) {
+            const newUtilities = {
+                '.no-scrollbar::-webkit-scrollbar': {
+                    display: 'none',
+                },
+                '.no-scrollbar': {
+                    '-ms-overflow-style': 'none',
+                    'scrollbar-width': 'none',
+                },
+            };
 
-//             addUtilities(newUtilities, ['responsive', 'hover']);
-//         },
+            addUtilities(newUtilities);
+        },
+    ],
+};

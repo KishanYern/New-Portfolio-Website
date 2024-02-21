@@ -7,7 +7,7 @@ import { IoIosPaper } from 'react-icons/io';
 const Home = () => {
     return (
         <section
-            name='homePage'
+            name='home'
             className=' w-full bg-gradient-to-b from-white to-blue-100 overflow-hidden max-w-screen-ms h-screen'
         >
             <div className=' container overflow-hidden'>
@@ -61,6 +61,7 @@ const Home = () => {
                     <a
                         href='https://drive.google.com/file/d/103knfPxQIT3dcNjhzb8HE5GgQ9NZgs2c/view?usp=drive_link'
                         target='_blank'
+                        rel='noreferrer'
                         className='text-3xl bg-slate-200 h-20 w-28 flex justify-center items-center cursor-pointer rounded-3xl
                     shadow-lg shadow-blue-500/40 hover:shadow-indigo-500/40 hover:scale-105 
                     hover:shadow-2xl hover:text-slate-600 z-10 mr-10 mt-10 duration-200'
@@ -76,6 +77,7 @@ const Home = () => {
                         className='text-3xl bg-slate-200 h-20 w-28 flex justify-center items-center cursor-pointer rounded-3xl
                     shadow-lg shadow-blue-500/40 hover:shadow-indigo-500/40 hover:scale-105 
                     hover:shadow-2xl duration-200 hover:text-red-400 z-10 mr-10 mt-10'
+                        rel='noreferrer'
                         href='https://github.com/KishanYern'
                         target='_blank'
                     >
@@ -87,6 +89,7 @@ const Home = () => {
                         className='text-3xl bg-slate-200 h-20 w-28 flex justify-center items-center cursor-pointer rounded-3xl
                     shadow-lg shadow-blue-500/40 hover:shadow-indigo-500/40 hover:scale-105 
                     hover:shadow-2xl duration-200 hover:text-blue-700 z-10 mr-10 mt-10'
+                        rel='noreferrer'
                         href='https://www.linkedin.com/in/kishan-yerneni/'
                         target='_blank'
                     >

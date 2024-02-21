@@ -9,6 +9,9 @@
         font-family: 'Cedarville Cursive', cursive;
         font-family: 'Raleway', sans-serif;
     }
+    body {
+        overflow-y: scroll;
+    }
 }
 
 @layer utilities {
@@ -20,13 +23,5 @@
     }
     .animation-delay-6 {
         animation-delay: 6s;
-    }
-    .no-scrollbar::-webkit-scrollbar {
-        display: none;
-    }
-    /* Hide scrollbar for IE, Edge and Firefox */
-    .no-scrollbar {
-        -ms-overflow-style: none; /* IE and Edge */
-        scrollbar-width: none; /* Firefox */
     }
 }

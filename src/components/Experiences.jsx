@@ -6,9 +6,9 @@ const Experiences = () => {
     return (
         <section
             className='bg-gradient-to-b from-green-100 to-orange-100 h-[100vh]'
-            name='experiencePage'
+            name='experience'
         >
-            <div className='text-7xl text-red-400 flex justify-center items-center font-signature min-w-max'>
+            <div className='text-7xl text-red-400 flex justify-center items-center font-signature min-w-max pt-20'>
                 Experiences
             </div>
             <div className='flex flex-row h-[90vh]'>
@@ -38,7 +38,7 @@ const Experiences = () => {
                         <img
                             src={ExperienceElements[experiences].icon}
                             className=' w-4/12'
-                            alt='profile picture'
+                            alt='company-logo'
                         />
                     )}
                     <div className='flex flex-col gap-10 mr-20 mt-10 overflow-auto'>
