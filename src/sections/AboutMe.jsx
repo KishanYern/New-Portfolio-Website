@@ -16,9 +16,9 @@ const AboutMe = () => {
                     <div className='w-2/3 flex justify-center items-center text-xl md:text-3xl sm:text-2xl p-0 md:px-10 font-custom pb-28'>
                         <div className=' font-custom'>
                             Hey, I'm Kishan Yerneni and this is my portfolio
-                            website! I am currently a Junior at the University
+                            website! I am currently a Senior at the University
                             of Houston, majoring in Computer Science with a
-                            minor in Mathematics. <br />
+                            minor in Mathematics with a GPA of 3.94. <br />
                             <div className='mt-10'>
                                 I have always been interested in the problem
                                 solving aspect of computer science, which is the
