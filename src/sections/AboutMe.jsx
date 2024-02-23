@@ -1,5 +1,5 @@
 import React from 'react';
-import Pikachu from './assets/pikachu.jpg';
+import Pikachu from '../components/assets/pikachu.jpg';
 const AboutMe = () => {
     return (
         <section

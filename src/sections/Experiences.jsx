@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import ExperienceElements from './assets/ExperienceElements';
+import ExperienceElements from '../components/assets/ExperienceElements';
 
 const Experiences = () => {
     const [experiences, setExperiences] = useState(0);

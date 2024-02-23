@@ -1,6 +1,6 @@
 import React from 'react';
-import ProjectElements from './assets/ProjectElements';
-import Project from './Project';
+import ProjectElements from '../components/assets/ProjectElements';
+import Project from '../components/Project';
 import { MdChevronLeft, MdChevronRight } from 'react-icons/md';
 
 const Projects = () => {
