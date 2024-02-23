@@ -4,4 +4,4 @@ Created a revamped portfolio website using ReactJS and TailwindCSS. The main rea
 
 ## Local Development
 
-Clone the repository and run `npm i` to install all local dependancies. Then run 'npm run start' to set up the local host.
+Clone the repository and run `npm i` to install all local dependancies. Then run `npm run start` to set up the local host.
