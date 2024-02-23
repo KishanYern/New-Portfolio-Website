@@ -8,12 +8,12 @@ const Experiences = () => {
             className='bg-gradient-to-b from-green-100 to-orange-100 h-[100vh]'
             name='experience'
         >
-            <div className='text-7xl text-red-400 flex justify-center items-center font-signature min-w-max pt-20'>
+            <div className='text-7xl text-red-400 flex justify-center items-center font-signature min-w-max md:pt-20'>
                 Experience
             </div>
-            <div className='flex flex-row h-[90vh] font-custom'>
-                <div className='w-1/3 flex justify-center items-center'>
-                    <div className='flex flex-col gap-10'>
+            <div className='flex flex-col md:flex-row h-[90vh] font-custom'>
+                <div className='w-full md:w-1/3 flex justify-center items-center'>
+                    <div className='flex flex-row md:flex-col gap-2 md:gap-10 pb-10'>
                         {ExperienceElements.map(({ id, company }) => {
                             return (
                                 <button
@@ -33,7 +33,7 @@ const Experiences = () => {
                         })}
                     </div>
                 </div>
-                <div className='w-2/3 flex justify-center items-center flex-col'>
+                <div className='w-full md:w-2/3 flex justify-center items-center flex-col px-8 md:px-auto'>
                     {ExperienceElements[experiences].icon && (
                         <img
                             src={ExperienceElements[experiences].icon}

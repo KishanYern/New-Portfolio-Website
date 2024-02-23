@@ -101,7 +101,7 @@ const Home = () => {
                 <div className='text-3xl text-gray-500 mt-32 relative'>
                     <IoCaretDown
                         size={40}
-                        className='animate-bounce absolute top-10 right-1/2'
+                        className='animate-bounce absolute top-10 right-1/2 z-20'
                     />
                 </div>
             </div>

@@ -19,12 +19,12 @@ const Projects = () => {
             className=' h-auto md:h-[100vh] bg-gradient-to-b from-orange-100 to-red-50'
             name='projects'
         >
-            <div className='text-7xl text-red-400 flex justify-center items-center font-signature min-w-max pt-28'>
+            <div className='text-7xl text-red-400 flex justify-center items-center font-signature min-w-max pt-28 pb-20 md:pb-0'>
                 Projects
             </div>
             <div className='h-full relative flex items-center'>
                 <MdChevronLeft
-                    className='md:opacity-50 cursor-pointer md:hover:opacity-100 opacity-0'
+                    className='md:opacity-50 cursor-pointer hover:opacity-100'
                     onClick={slideLeft}
                     size={80}
                 />
@@ -46,7 +46,7 @@ const Projects = () => {
                     })}
                 </div>
                 <MdChevronRight
-                    className='md:opacity-50 cursor-pointer md:hover:opacity-100 opacity-0 bg-transparent'
+                    className='md:opacity-50 cursor-pointer hover:opacity-100 bg-transparent'
                     onClick={slideRight}
                     size={80}
                 />

@@ -38,9 +38,12 @@ module.exports = {
             projects: ['monospace'],
             custom: ['Lato'],
         },
-    },
-    screens: {
-        ssm: '500px',
+        screens: {
+            sm: '400px',
+            md: '768px',
+            lg: '1024px',
+            xl: '1280px',
+        },
     },
     plugins: [
         require('tailwind-scrollbar'),
