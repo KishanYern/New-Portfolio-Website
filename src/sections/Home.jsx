@@ -59,7 +59,7 @@ const Home = () => {
                 </div>
                 <div className='flex flex-col justify-between items-center h-1/6 w-full px-4 md:flex-row md:items-center md:justify-center space'>
                     <a
-                        href='https://drive.google.com/file/d/103knfPxQIT3dcNjhzb8HE5GgQ9NZgs2c/view?usp=drive_link'
+                        href='https://drive.google.com/file/d/1mLquEw_fQOEQg7JYsJfTKEFOBJZKLwUw/view?usp=sharing'
                         target='_blank'
                         rel='noreferrer'
                         className='text-3xl bg-slate-200 h-20 w-28 flex justify-center items-center cursor-pointer rounded-3xl
