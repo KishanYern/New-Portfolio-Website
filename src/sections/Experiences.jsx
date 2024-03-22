@@ -33,7 +33,7 @@ const Experiences = () => {
                         })}
                     </div>
                 </div>
-                <div className='w-full md:w-2/3 flex justify-center items-center flex-col px-8 md:px-auto'>
+                <div className='w-full md:w-2/3 flex justify-center items-center flex-col px-8 md:px-auto overflow-auto'>
                     {ExperienceElements[experiences].icon && (
                         <img
                             src={ExperienceElements[experiences].icon}
